@@ -27,7 +27,7 @@ https://stackoverflow.com/questions/34949316/access-denied-while-sending-email-f
       },
       Subject: {
         Charset: 'UTF-8',
-        Data: 'New message from Zach_Crowell.com',
+        Data: 'New message from Zach Crowell Portfolio',
       },
     },
   };
