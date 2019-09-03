@@ -6,6 +6,7 @@
     const formResponse = document.querySelector('js-form-response');
   
     form.onsubmit = e => {
+      
       e.preventDefault();
   
       const data = {};
