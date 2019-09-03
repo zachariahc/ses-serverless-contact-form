@@ -13,10 +13,10 @@ function sendEmail(formData, callback) {
 https://stackoverflow.com/questions/34949316/access-denied-while-sending-email-from-aws-ses-in-lambda-function */
 
   const emailParams = {
-    Source: 'zachariahcrowell@gmail.com', // SES SENDING EMAIL
+    Source: 'zachariahcrowell@gmail.com', // SES SENDING EMAIL CHANGE TO VERIFIED EMAIL
     ReplyToAddresses: [formData.reply_to],
     Destination: {
-      ToAddresses: ['zachariahcrowell@gmail.com'], // SES RECEIVING EMAIL
+      ToAddresses: ['zachariahcrowell@gmail.com'], // SES RECEIVING EMAIL CHANGE TO VERIFIED EMAIL
     },
     Message: {
       Body: {
